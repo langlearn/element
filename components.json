@@ -63,5 +63,6 @@
   "cascader": "./packages/cascader/index.js",
   "color-picker": "./packages/color-picker/index.js",
   "transfer": "./packages/transfer/index.js",
-  "ue-tree-table": "./packages/ue-tree-table/index.js"
+  "ue-tree-table": "./packages/ue-tree-table/index.js",
+  "ue-date-picker": "./packages/ue-date-picker/index.js"
 }

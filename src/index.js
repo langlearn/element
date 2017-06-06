@@ -65,6 +65,7 @@ import Cascader from '../packages/cascader/index.js';
 import ColorPicker from '../packages/color-picker/index.js';
 import Transfer from '../packages/transfer/index.js';
 import UeTreeTable from '../packages/ue-tree-table/index.js';
+import UeDatePicker from '../packages/ue-date-picker/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -130,6 +131,7 @@ const components = [
   ColorPicker,
   Transfer,
   UeTreeTable,
+  UeDatePicker,
   CollapseTransition
 ];
 
@@ -229,5 +231,6 @@ module.exports = {
   Cascader,
   ColorPicker,
   Transfer,
-  UeTreeTable
+  UeTreeTable,
+  UeDatePicker
 };
