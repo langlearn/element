@@ -19,10 +19,10 @@
           <span>
           <span @click="toggle(scope.$index)" v-if="!scope.row._leaf" class="is-parent">
             <i :class="scope.row._expanded?'el-icon-caret-bottom':'el-icon-caret-right'"></i>
-            <i :class="['fa',scope.row._expanded?'fa-folder-open':'fa-folder']" style="padding-right: 7px;"></i>
+            <i :class="scope.row.icon?scope.row.icon:['fa',scope.row._expanded?'fa-folder-open':'fa-folder']" style="padding-right: 7px;"></i>
           </span>
           <span v-if="scope.row._leaf" class="is-leaf">
-            <i class="fa fa-file" style="padding-right: 7px; padding-left: 18px;"></i>
+            <i :class="scope.row.icon?scope.row.icon:['fa','fa-file']" style="padding-right: 7px; padding-left: 18px;"></i>
           </span>
           <span>{{scope.row[treeFieldName]}}</span>
         </span>
