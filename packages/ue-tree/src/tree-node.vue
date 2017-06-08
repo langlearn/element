@@ -17,6 +17,7 @@
       <el-checkbox
         v-if="showCheckbox && !node.data.nocheck"
         v-model="node.checked"
+        :disabled="node.data.chkDisabled"
         :indeterminate="node.indeterminate"
         @change="handleCheckChange"
         @click.native.stop="handleUserClick">
