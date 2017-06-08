@@ -1,8 +1,8 @@
-import Tree from './src/tree.vue';
+import UeTree from './src/tree.vue';
 
 /* istanbul ignore next */
-Tree.install = function(Vue) {
-  Vue.component(Tree.name, Tree);
+UeTree.install = function(Vue) {
+  Vue.component(UeTree.name, UeTree);
 };
 
-export default Tree;
+export default UeTree;

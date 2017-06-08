@@ -15,7 +15,7 @@
         :class="{ 'is-leaf': node.isLeaf, expanded: !node.isLeaf && expanded }">
       </span>
       <el-checkbox
-        v-if="showCheckbox"
+        v-if="showCheckbox && !node.data.nocheck"
         v-model="node.checked"
         :indeterminate="node.indeterminate"
         @change="handleCheckChange"
@@ -134,6 +134,7 @@
       },
 
       handleClick() {
+          console.log(this.node);
         const store = this.tree.store;
         store.setCurrentNode(this.node);
         this.tree.$emit('current-change', store.currentNode ? store.currentNode.data : null, store.currentNode);

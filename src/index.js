@@ -66,6 +66,7 @@ import ColorPicker from '../packages/color-picker/index.js';
 import Transfer from '../packages/transfer/index.js';
 import UeTreeTable from '../packages/ue-tree-table/index.js';
 import UeDatePicker from '../packages/ue-date-picker/index.js';
+import UeTree from '../packages/ue-tree/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -132,6 +133,7 @@ const components = [
   Transfer,
   UeTreeTable,
   UeDatePicker,
+  UeTree,
   CollapseTransition
 ];
 
@@ -232,5 +234,6 @@ module.exports = {
   ColorPicker,
   Transfer,
   UeTreeTable,
-  UeDatePicker
+  UeDatePicker,
+  UeTree
 };

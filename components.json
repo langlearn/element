@@ -64,5 +64,6 @@
   "color-picker": "./packages/color-picker/index.js",
   "transfer": "./packages/transfer/index.js",
   "ue-tree-table": "./packages/ue-tree-table/index.js",
-  "ue-date-picker": "./packages/ue-date-picker/index.js"
+  "ue-date-picker": "./packages/ue-date-picker/index.js",
+  "ue-tree": "./packages/ue-tree/index.js"
 }
