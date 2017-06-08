@@ -292,7 +292,6 @@
       // 展开下级
       toggle(trIndex) {
           let me = this;
-          console.log(me.data);
           let record = me.data[trIndex];
           record._expanded = !record._expanded;
       },

@@ -135,7 +135,6 @@
       },
 
       handleClick() {
-          console.log(this.node);
         const store = this.tree.store;
         store.setCurrentNode(this.node);
         this.tree.$emit('current-change', store.currentNode ? store.currentNode.data : null, store.currentNode);
