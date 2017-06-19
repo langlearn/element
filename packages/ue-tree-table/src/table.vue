@@ -10,6 +10,7 @@
     }"
     @mouseleave="handleMouseLeave($event)">
     <div class="hidden-columns" ref="hiddenColumns">
+      <slot name="prepend"></slot>
       <el-table-column
               align="left"
               :width="treeWidth"
