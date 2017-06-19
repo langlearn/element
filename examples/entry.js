@@ -10,6 +10,7 @@ import MainHeader from './components/header.vue';
 import SideNav from './components/side-nav';
 import FooterNav from './components/footer-nav';
 import title from './i18n/title.json';
+import 'font-awesome/css/font-awesome.min.css';
 
 Vue.use(Element);
 Vue.use(VueRouter);
